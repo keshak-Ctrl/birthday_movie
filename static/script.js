@@ -1,8 +1,8 @@
-let text = "Dear Jennie... \
+let text = "Dear baby... \
 Before this day ends, there is something I want you to know. \
 You are incredibly special and your smile can brighten even the darkest days. \
 Today the world celebrates you. \
-Happy Birthday Jennie 💖";
+Happy Birthday baby 💖";
 
 let i = 0;
 
@@ -68,7 +68,7 @@ setTimeout(()=>{fire.remove()},2000);
 
 function start(){
 
-document.getElementById("title").innerHTML="Hi Jennie 💖";
+document.getElementById("title").innerHTML="Hi baby 💖";
 
 typeWriter();
 
