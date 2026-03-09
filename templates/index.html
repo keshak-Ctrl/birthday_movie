@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Happy Birthday Jennie</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div class="center">
+
+<h1 id="title">Someone has a message for you...</h1>
+
+<p id="typing"></p>
+
+<button onclick="start()">Open Message</button>
+
+</div>
+
+<div id="final">🎂 Happy Birthday Jennie 💖</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
