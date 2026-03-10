@@ -1,8 +1,7 @@
 let text = "Dear baby... \
 Before this day ends, there is something I want you to know. \
 You are incredibly special and your smile can brighten even the darkest days. \
-Today the world celebrates you. \
-Happy Birthday baby 💖";
+So I Love you baby 💖";
 
 let i = 0;
 
@@ -42,33 +41,33 @@ setTimeout(()=>{heart.remove()},6000);
 
 }
 
-function fireworks(){
+// function fireworks(){
 
-setInterval(function(){
+// setInterval(function(){
 
-let fire = document.createElement("div");
+// let fire = document.createElement("div");
 
-fire.innerHTML="🎆";
+// fire.innerHTML="🎆";
 
-fire.style.position="absolute";
+// fire.style.position="absolute";
 
-fire.style.left=Math.random()*100+"vw";
+// fire.style.left=Math.random()*100+"vw";
 
-fire.style.top=Math.random()*100+"vh";
+// fire.style.top=Math.random()*100+"vh";
 
-fire.style.fontSize="40px";
+// fire.style.fontSize="40px";
 
-document.body.appendChild(fire);
+// document.body.appendChild(fire);
 
-setTimeout(()=>{fire.remove()},2000);
+// setTimeout(()=>{fire.remove()},2000);
 
-},500)
+// },500)
 
-}
+// }
 
 function start(){
 
-document.getElementById("title").innerHTML="Hi baby 💖";
+document.getElementById("title").innerHTML="💖 Hi baby 💖";
 
 typeWriter();
 
